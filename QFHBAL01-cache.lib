@@ -1,0 +1,107 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Connector_Conn_Coaxial
+#
+DEF Connector_Conn_Coaxial J 0 40 Y N 1 F N
+F0 "J" 10 120 50 H V C CNN
+F1 "Connector_Conn_Coaxial" 115 0 50 V V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ *BNC*
+ *SMA*
+ *SMB*
+ *SMC*
+ *Cinch*
+$ENDFPLIST
+DRAW
+A -2 0 71 1636 0 0 1 10 N -70 20 70 0
+A -1 0 71 0 -1638 0 1 10 N 70 0 -70 -20
+C 0 0 20 0 1 8 N
+P 2 0 1 0 -100 0 -20 0 N
+P 2 0 1 0 0 -100 0 -70 N
+X In 1 -200 0 100 R 50 50 1 1 P
+X Ext 2 0 -200 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_Transformer_1P_SS
+#
+DEF Device_Transformer_1P_SS T 0 40 Y N 1 F N
+F0 "T" 0 250 50 H V C CNN
+F1 "Device_Transformer_1P_SS" 0 -300 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+A -100 -150 50 899 1 0 1 0 N -100 -100 -50 -150
+A -100 -150 50 -1 -899 0 1 0 N -50 -150 -100 -199
+A -100 -50 50 899 1 0 1 0 N -100 0 -50 -50
+A -100 -50 50 -1 -899 0 1 0 N -50 -50 -100 -99
+A -100 50 50 899 1 0 1 0 N -100 100 -50 50
+A -100 50 50 -1 -899 0 1 0 N -50 50 -100 1
+A -100 150 50 899 1 0 1 0 N -100 200 -50 150
+A -100 150 50 -1 -899 0 1 0 N -50 150 -100 101
+A 100 -50 50 899 -1799 0 1 0 N 100 0 51 -50
+A 100 -50 50 1799 -899 0 1 0 N 51 -50 100 -99
+A 100 50 50 899 -1799 0 1 0 N 100 100 51 50
+A 100 50 50 1799 -899 0 1 0 N 51 50 100 1
+A 100 150 50 899 -1799 0 1 0 N 100 200 51 150
+A 100 150 50 1799 -899 0 1 0 N 51 150 100 101
+A 101 -150 50 910 -1799 0 1 0 N 101 -100 52 -150
+A 101 -150 50 -912 -1799 0 1 0 N 101 -199 52 -150
+P 2 0 1 0 -25 200 -25 -200 N
+P 2 0 1 0 25 -200 25 200 N
+X AA 1 -400 200 300 R 50 50 1 1 P
+X AB 2 -400 -200 300 R 50 50 1 1 P
+X SA 3 400 -200 300 L 50 50 1 1 P
+X SC 4 400 0 300 L 50 50 1 1 P
+X SB 5 400 200 300 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Mechanical_MountingHole
+#
+DEF Mechanical_MountingHole H 0 40 Y Y 1 F N
+F0 "H" 0 200 50 H V C CNN
+F1 "Mechanical_MountingHole" 0 125 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ MountingHole*
+$ENDFPLIST
+DRAW
+C 0 0 50 0 1 50 N
+ENDDRAW
+ENDDEF
+#
+# Mechanical_MountingHole_Pad
+#
+DEF Mechanical_MountingHole_Pad H 0 40 N N 1 F N
+F0 "H" 0 250 50 H V C CNN
+F1 "Mechanical_MountingHole_Pad" 0 175 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ MountingHole*Pad*
+$ENDFPLIST
+DRAW
+C 0 50 50 0 1 50 N
+X 1 1 0 -100 100 U 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# power_GND
+#
+DEF power_GND #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "power_GND" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+#End Library
