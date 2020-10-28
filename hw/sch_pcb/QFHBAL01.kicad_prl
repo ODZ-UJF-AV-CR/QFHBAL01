@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 44,
+    "active_layer": 41,
     "active_layer_preset": "",
     "hidden_nets": [],
     "high_contrast_mode": 0,
@@ -60,7 +60,7 @@
       37,
       38
     ],
-    "visible_layers": "ffcffff_ffffffff"
+    "visible_layers": "ffcffef_ffffffff"
   },
   "meta": {
     "filename": "QFHBAL01.kicad_prl",
