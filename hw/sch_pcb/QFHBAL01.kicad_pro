@@ -309,6 +309,7 @@
       "pin_not_connected": "error",
       "pin_not_driven": "error",
       "pin_to_pin": "warning",
+      "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "unresolved_variable": "error",
       "wire_dangling": "error"
@@ -370,6 +371,7 @@
       "intersheets_ref_short": false,
       "intersheets_ref_show": false,
       "intersheets_ref_suffix": "",
+      "junction_size_choice": 3,
       "pin_symbol_size": 25.0,
       "text_offset_ratio": 0.3
     },
@@ -388,7 +390,7 @@
   },
   "sheets": [
     [
-      "d2b15fae-8217-4028-8c5d-c2ffd1d9cb06",
+      "4d064818-43f2-42e9-ab35-07941171695e",
       ""
     ]
   ],

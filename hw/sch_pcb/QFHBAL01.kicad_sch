@@ -269,8 +269,8 @@
   (junction (at 100.965 66.675) (diameter 1.016) (color 0 0 0 0))
   (junction (at 100.965 76.835) (diameter 1.016) (color 0 0 0 0))
 
-  (no_connect (at 191.77 83.185))
   (no_connect (at 165.1 67.31))
+  (no_connect (at 191.77 83.185))
 
   (wire (pts (xy 78.74 66.675) (xy 78.74 62.865))
     (stroke (width 0) (type solid) (color 0 0 0 0))
@@ -599,7 +599,7 @@
     (property "Reference" "J1" (id 0) (at 232.41 66.04 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "Conn_Coaxial" (id 1) (at 232.41 68.3514 0)
+    (property "Value" "Conn_Coaxial SMA or MCX" (id 1) (at 232.41 68.351 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Connector_Coaxial:SMA_Amphenol_901-144_Vertical" (id 2) (at 229.87 65.405 0)
@@ -618,7 +618,7 @@
     (property "Footprint" "Transformer_SMD:Transformer_MACOM_SM-22" (id 2) (at 152.4 67.31 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (id 3) (at 152.4 67.31 90)
+    (property "Datasheet" "https://www.minicircuits.com/pdfs/TC1-1-13MX+.pdf" (id 3) (at 152.4 67.31 90)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -631,7 +631,7 @@
     (property "Footprint" "Transformer_SMD:Transformer_MACOM_SM-22" (id 2) (at 191.77 70.485 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (id 3) (at 191.77 70.485 90)
+    (property "Datasheet" "https://cdn.macom.com/datasheets/ETC1-1-13.pdf" (id 3) (at 191.77 70.485 90)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -684,7 +684,7 @@
       (reference "H11") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_3.2mm_M3")
     )
     (path "/00000000-0000-0000-0000-00005f8ddcd9"
-      (reference "J1") (unit 1) (value "Conn_Coaxial") (footprint "Connector_Coaxial:SMA_Amphenol_901-144_Vertical")
+      (reference "J1") (unit 1) (value "Conn_Coaxial SMA or MCX") (footprint "Connector_Coaxial:SMA_Amphenol_901-144_Vertical")
     )
     (path "/00000000-0000-0000-0000-00005f9673c6"
       (reference "T1") (unit 1) (value "ETC1-1-13") (footprint "Transformer_SMD:Transformer_MACOM_SM-22")
