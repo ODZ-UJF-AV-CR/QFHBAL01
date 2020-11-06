@@ -7,10 +7,11 @@
 
 ![Balun connection](https://uuki.kapsi.fi/pix/qha/qha-diagram_medium.png)
 
-Helices: 	Feedpoint: 	Radiation: 	Polarization:
-Left-hand 	Standard 	Upward 	RHCP
-Right-hand 	Anti-standard 	Upward 	LHCP
-Left-hand 	Anti-standard 	Downward 	RHCP
-Right-hand 	Standard 	Downward 	LHCP
+| Helices | Feedpoint | Radiation | 	Polarization |
+| ------------- |:-------------:| -----:|
+| Left-hand |	Standard |	Upward |	RHCP
+| Right-hand |	Anti-standard |	Upward |	LHCP
+| Left-hand |	Anti-standard |	Downward |	RHCP
+| Right-hand |	Standard |	Downward |	LHCP
 
 [source](https://uuki.kapsi.fi/qha_simul.html)
