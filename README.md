@@ -4,6 +4,12 @@
 
 ![QFH antenna balun](/doc/src/img/QFHBAL01.png)
 
+## Mechanical drawing
+
+![QFHBAL01 Dimensions](/doc/src/img/dimensions.png)
+
+
+## Electrical interface
 
 ![Balun connection](https://uuki.kapsi.fi/pix/qha/qha-diagram_medium.png)
 
@@ -27,5 +33,4 @@
   * Maximum DC current 30 mA
   * Operating Temperature -55 °C to +85 °C
   * Dimensions: 32mm diameter 20mm height (including RF connector)
-  * Weight 10 g 
-  
+  * Weight 10 g
