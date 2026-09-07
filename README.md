@@ -28,9 +28,19 @@ The "SL" (small loop) and "LL" (large loop) silk screen indicators show a connec
 
 [source](https://uuki.kapsi.fi/qha_simul.html)
 
+### Galvanic isolation
+
+Solder/populate either T1 or T2 (but not both) to select whether the antenna is galvanically isolated from the connector or not.
+
+
+| Transformer Populated | Effect | DC Path |
+| --------------------- | ------ | ------- |
+| T1                    | Antenna has a **direct galvanic connection** to the connector | Has a DC path |
+| T2                    | Antenna is **galvanically isolated** from the connector | No DC path |
+
 ### Main Parameters
 
-  * Polarization configurations:  RHCP, LHCP
+  * Polarization configurations: RHCP, LHCP
   * Insertion Loss: 2 dB
   * Amplitude balance: +/- 1 dB
   * Phase Balance: +/- 20 degree (°)
@@ -42,4 +52,4 @@ The "SL" (small loop) and "LL" (large loop) silk screen indicators show a connec
 
 ### BOM
   * SMA connector
-  * ETC1-1-13 transformer
+  * T1 or T2: ETC1-1-13 transformer
