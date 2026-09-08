@@ -1,6 +1,7 @@
 # QFHBAL01 - Antenna interface and balun
 
-[Balun](https://en.wikipedia.org/wiki/Balun) for [QFH antennas](https://github.com/ODZ-UJF-AV-CR/QFH-Antenna).
+[Balun](https://en.wikipedia.org/wiki/Balun) for [QFH antennas](https://github.com/ODZ-UJF-AV-CR/QFH-Antenna) used on NPI stratospheric balloons ([FIK-6](https://github.com/ODZ-UJF-AV-CR/FIK-6), [FIK-10](https://github.com/ODZ-UJF-AV-CR/FIK-10), etc). 
+
 
 ![QFH antenna balun](/doc/src/img/QFHBAL01.png)
 
@@ -15,7 +16,7 @@ The electrical interface assumes the antenna is held such that the feedpoint/PCB
 
 The following diagram shows the "Standard" configuration. The "Anti-standard" configuration is such that the PCB is rotated 90° from the "Standard" configuration.
 
-The "SL" (small loop) and "LL" (large loop) silk screen indicators show a connection for the "Standard" configuration.
+The "SL" (small loop) and "LL" (large loop) silkscreen indicators show a connection for the "Standard" configuration.
 
 !["Standard" balun connection](https://uuki.kapsi.fi/pix/qha/qha-diagram_medium.png)
 
